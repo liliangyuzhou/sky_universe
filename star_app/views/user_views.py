@@ -9,6 +9,8 @@ from django.contrib.auth.models import User
 from django.contrib.sessions.models import Session
 
 from star_app.common import response_json,reponse_fail,response_success
+from star_app.forms import user_forms
+
 
 # Create your views here.
 
@@ -17,8 +19,14 @@ def register(request):
         body = request.body
         params = json.loads(body)
         print(params)
-        if 'name' in params and params['name'] != None and "pwd"  in params and params['pwd'] !=None:
-            user=User.objects.create_user(username=str(params['name']),password=str(params['pwd']))
+        form=user_forms.UserForms(params)
+        result=form.is_valid()
+        print(result)
+        if result:
+            # user=User.objects.create_user(username=str(params['username']),password=str(params['password']))
+            # 可以使用form.cleaned_data来获取对应的值，cleaned_data可以；理解为一个校验过的字典，和params一样的值
+            user=User.objects.create_user(username=form.cleaned_data.get("username"),
+                                          password=form.cleaned_data.get("password"))
             if user:
                 auth.login(request, user)
                 # 获取设置的session值
@@ -27,6 +35,8 @@ def register(request):
             else:
                 return reponse_fail(message="添加用户失败！")
         else:
+            #表单验证不通过，打印出来错误信息
+            print(form.errors)
             return reponse_fail(message="请输入正确的参数！")
     else:
         return HttpResponse(404)
@@ -36,8 +46,13 @@ def login_user(request):
     if request.method == "POST":
         body = request.body
         params = json.loads(body)
-        if 'name'  in params and "" != params['name'] and "pwd" in params and "" != params['pwd']:
-            user=auth.authenticate(username=params['name'],password=params['pwd'])
+
+        form = user_forms.UserForms(params)
+        result = form.is_valid()
+        print(result)
+        if result:
+            user=auth.authenticate(username=form.cleaned_data.get("username"),
+                                          password=form.cleaned_data.get("password"))
             if user:
                 # Dango自身方式设置session，持久化登陆
                 #创建一个session
@@ -48,6 +63,7 @@ def login_user(request):
             else:
                 return reponse_fail(message="登录失败！")
         else:
+            print(form.errors)
             return reponse_fail(message="请输入正确的用户名或者密码！")
     else:
         return HttpResponse(404)
