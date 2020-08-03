@@ -1,0 +1,4 @@
+tignore
+/.idea/
+*/__pycache__
+
