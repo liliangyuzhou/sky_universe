@@ -176,3 +176,78 @@ SESSION_COOKIE_HTTPONLY = True  # 是否Session的cookie只支持http传输（�
 SESSION_COOKIE_AGE = 1209600  # Session的cookie失效日期（2周）（默认）
 SESSION_EXPIRE_AT_BROWSER_CLOSE = False  # 是否关闭浏览器使得Session过期（默认）
 SESSION_SAVE_EVERY_REQUEST = False  # 是否每次请求都保存Session，默认修改之后才保存（默认）
+
+
+
+# 配置日志
+STATIC_ROOT='/Users/zaihui-105/PycharmProjects/sky_universe/logs'
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': True,
+    'formatters': {
+        'standard': {
+            'format': '%(asctime)s [%(threadName)s:%(thread)d] [%(name)s:%(lineno)d] [%(levelname)s]- %(message)s'
+        },
+    },
+    'filters': {
+    },
+    'handlers': {
+        'mail_admins': {
+            'level': 'ERROR',
+            'class': 'django.utils.log.AdminEmailHandler',
+            'include_html': True,
+        },
+        'default': {
+            'level':'INFO',
+            'class':'logging.handlers.RotatingFileHandler',
+            'filename': os.path.join(STATIC_ROOT,'all.log'), #或者直接写路径：'c:\logs\all.log',
+            'maxBytes': 1024*1024*5, # 5 MB
+            'backupCount': 5,
+            'formatter':'standard',
+        },
+        'console':{
+            'level': 'INFO',
+            'class': 'logging.StreamHandler',
+            'formatter': 'standard'
+        },
+        'request_handler': {
+            'level':'INFO',
+            'class':'logging.handlers.RotatingFileHandler',
+            'filename': os.path.join(STATIC_ROOT,'script.log'), #或者直接写路径：'filename':'c:\logs\request.log''
+            'maxBytes': 1024*1024*5, # 5 MB
+            'backupCount': 5,
+            'formatter':'standard',
+        },
+        'scprits_handler': {
+            'level':'INFO',
+            'class':'logging.handlers.RotatingFileHandler',
+            'filename': os.path.join(STATIC_ROOT,'script.log'), #或者直接写路径：'filename':'c:\logs\script.log'
+            'maxBytes': 1024*1024*5, # 5 MB
+            'backupCount': 5,
+            'formatter':'standard',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['default','console'],
+            'level': 'DEBUG',
+            'propagate': False
+        },
+        'star_app':{
+            'handlers': ['default','console'],
+            'level': 'INFO',
+            'propagate': True
+        },
+        'django.request': {
+            'handlers': ['request_handler'],
+            'level': 'INFO',
+            'propagate': False
+        },
+        'scripts': { # 脚本专用日志
+            'handlers': ['scprits_handler'],
+            'level': 'INFO',
+            'propagate': False
+        },
+    }
+}
+

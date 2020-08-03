@@ -14,6 +14,10 @@ from star_app.forms import user_forms
 from django.views.generic import View
 # Create your views here.
 
+import logging
+logger = logging.getLogger(__name__) # 这里用__name__通用,自动检测.
+
+
 #使用类的方式定义接口：根据restful风格，同一个url，根据不同的http方法区别不同的接口。eg：这里自己约定 注册：post，登陆：put，获取用户：get
 #好处是不用写很多url，后期维护方便。另外就是不需要根据方法判断if request.method == "POST" else: return HttpResponse(404)，
 # 来判断方法是否正确，类试图的写法自动会判断是不是正确的请求方式，不正确页面返回404页面
@@ -21,6 +25,7 @@ class UserViews(View):
     def get(self,request,*args,**kwargs):
         # 通过login(request,user)设置了session，可以通过request.user获取用户
         token = request.META.get("HTTP_TOKEN", None)
+        logger.info('aaa')
         print(token)
         if token is None:
             return reponse_fail(message="用户未登录")
@@ -28,6 +33,7 @@ class UserViews(View):
             try:
                 # 根据head中的token获取session对象
                 session = Session.objects.get(pk=token)
+
             except Session.DoesNotExist:
                 return reponse_fail(message="session失效")
             except Exception as e:
