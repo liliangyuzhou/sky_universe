@@ -19,7 +19,8 @@ from star_app.views import user_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('backend/user/register', user_views.register),
-    path('backend/user/login', user_views.login_user),
-    path('backend/user/get_user', user_views.get_user),
+    # path('backend/user/register', user_views.register),
+    # path('backend/user/login', user_views.login_user),
+    # path('backend/user/get_user', user_views.get_user),
+    path('backend/user/', user_views.UserViews.as_view()),
 ]
