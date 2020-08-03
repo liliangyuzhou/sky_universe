@@ -36,7 +36,7 @@ def register(request):
                 return reponse_fail(message="添加用户失败！")
         else:
             #表单验证不通过，打印出来错误信息
-            print(form.errors)
+            print(form.errors.as_json())
             return reponse_fail(message="请输入正确的参数！")
     else:
         return HttpResponse(404)
@@ -49,7 +49,7 @@ def login_user(request):
 
         form = user_forms.UserForms(params)
         result = form.is_valid()
-        print(result)
+        print(1111,result)
         if result:
             user=auth.authenticate(username=form.cleaned_data.get("username"),
                                           password=form.cleaned_data.get("password"))
@@ -63,7 +63,7 @@ def login_user(request):
             else:
                 return reponse_fail(message="登录失败！")
         else:
-            print(form.errors)
+            print(form.errors.as_json())
             return reponse_fail(message="请输入正确的用户名或者密码！")
     else:
         return HttpResponse(404)
