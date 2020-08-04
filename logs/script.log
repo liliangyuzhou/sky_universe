@@ -1,0 +1,7 @@
+2020-08-03 12:13:46,426 [Thread-1:123145548763136] [django.request:228] [ERROR]- Internal Server Error: /backend/user/
+Traceback (most recent call last):
+  File "/Users/zaihui-105/first_class/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/zaihui-105/first_class/lib/python3.7/site-packages/django/utils/deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+TypeError: process_response() takes 2 positional arguments but 3 were given
