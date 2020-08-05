@@ -1,31 +1,29 @@
-
-
 import json
 
 from django.shortcuts import render
-from django.http import HttpResponse,JsonResponse
+from django.http import HttpResponse, JsonResponse
 from django.contrib import auth
 from django.contrib.auth.models import User
 from django.contrib.sessions.models import Session
 from django.views.generic import View
 
-from star_app.common import response_json,reponse_fail,response_success
+from star_app.common import response_json, reponse_fail, response_success
 from star_app.forms import user_forms
 from star_app.my_exception import MyException
-
 
 # Create your views here.
 
 import logging
-logger = logging.getLogger(__name__) # 这里用__name__通用,自动检测.
+
+logger = logging.getLogger(__name__)  # 这里用__name__通用,自动检测.
 
 
-#使用类的方式定义接口：根据restful风格，同一个url，根据不同的http方法区别不同的接口。eg：这里自己约定 注册：post，登陆：put，获取用户：get
-#好处是不用写很多url，后期维护方便。另外就是不需要根据方法判断if request.method == "POST" else: return HttpResponse(404)，
+# 使用类的方式定义接口：根据restful风格，同一个url，根据不同的http方法区别不同的接口。eg：这里自己约定 注册：post，登陆：put，获取用户：get
+# 好处是不用写很多url，后期维护方便。另外就是不需要根据方法判断if request.method == "POST" else: return HttpResponse(404)，
 # 来判断方法是否正确，类试图的写法自动会判断是不是正确的请求方式，不正确页面返回404页面
 class UserViews(View):
 
-    def get(self,request,*args,**kwargs):
+    def get(self, request, *args, **kwargs):
         # 通过login(request,user)设置了session，可以通过request.user获取用户
         # raise MyException("登陆失败了！")
         token = request.META.get("HTTP_TOKEN", None)
@@ -60,7 +58,7 @@ class UserViews(View):
                     # return reponse_fail(message="用户不存在")
                 return response_success(data={'username': user.username, 'id': user.id})
 
-    def post(self,request,*args,**kwargs):
+    def post(self, request, *args, **kwargs):
         body = request.body
         params = json.loads(body)
         print(params)
@@ -86,8 +84,7 @@ class UserViews(View):
             raise MyException(message="请输入正确的参数！")
             # return reponse_fail(message="请输入正确的参数！")
 
-
-    def put(self,request,*args,**kwargs):
+    def put(self, request, *args, **kwargs):
         body = request.body
         params = json.loads(body)
 
@@ -202,4 +199,3 @@ class UserViews(View):
 #         #     return reponse_fail(message="用户未登录")
 #     else:
 #         return HttpResponse(404)
-

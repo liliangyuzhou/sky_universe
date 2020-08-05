@@ -5,3 +5,5 @@ Traceback (most recent call last):
   File "/Users/zaihui-105/first_class/lib/python3.7/site-packages/django/utils/deprecation.py", line 96, in __call__
     response = self.process_response(request, response)
 TypeError: process_response() takes 2 positional arguments but 3 were given
+2020-08-05 03:55:59,958 [Thread-1:123145421783040] [django.request:228] [WARNING]- Not Found: /
+2020-08-05 03:56:00,055 [Thread-1:123145421783040] [django.request:228] [WARNING]- Not Found: /favicon.ico

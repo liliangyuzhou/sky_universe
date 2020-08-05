@@ -17,5 +17,5 @@ def response_success(data={}):
     return response_json(True,"",data)
 
 
-def reponse_fail(message):
+def reponse_fail(message="参数错误！"):
     return response_json(False,message,"")
