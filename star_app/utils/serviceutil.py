@@ -18,8 +18,14 @@ class ServiceUtil:
         """
         res = []
         results = Services.objects.filter(parent=parent)
+        parent_name = ""
+        if parent != 0:
+            obj = Services.objects.filter(id=parent).first()
+            parent_name = obj.name
+
         for i in results:
             ser = model_to_dict(i)
             ser['children'] = ServiceUtil.get_service_tree_structure(i.id)
+            ser['parent_name'] = parent_name
             res.append(ser)
         return res

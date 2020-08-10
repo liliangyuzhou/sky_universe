@@ -23,6 +23,6 @@ urlpatterns = [
     # path('backend/user/login', user_views.login_user),
     # path('backend/user/get_user', user_views.get_user),
     path('backend/user/', user_views.UserViews.as_view()),
-    path('backend/service', service_list_views.ServiceListView.as_view()),
+    path('backend/service/', service_list_views.ServiceListView.as_view()),
     path('backend/service/<int:pk>', service_detail_views.ServiceDetailView.as_view()),
 ]
