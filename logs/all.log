@@ -4747,3 +4747,11 @@
 2020-08-11 03:34:38,621 [MainThread:4499393984] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
 2020-08-11 03:38:07,756 [MainThread:4499393984] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/models/services.py changed, reloading.
 2020-08-11 03:38:08,255 [MainThread:4477365696] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-11 03:42:56,760 [MainThread:4477365696] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/models/services.py changed, reloading.
+2020-08-11 03:42:57,265 [MainThread:4645694912] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-11 03:44:15,705 [MainThread:4645694912] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/models/base.py changed, reloading.
+2020-08-11 03:44:16,165 [MainThread:4394651072] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-11 03:54:13,538 [MainThread:4394651072] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/models/base.py changed, reloading.
+2020-08-11 03:54:14,058 [MainThread:4453666240] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-11 03:54:32,548 [MainThread:4453666240] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/models/base.py changed, reloading.
+2020-08-11 03:54:32,943 [MainThread:4411583936] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
