@@ -20,3 +20,9 @@ TypeError: process_response() takes 2 positional arguments but 3 were given
 2020-08-10 03:35:46,868 [Thread-77:123145481261056] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
 2020-08-10 08:04:45,251 [Thread-8:123145326276608] [django.request:228] [WARNING]- Not Found: /backend/service/test1-1
 2020-08-10 08:05:25,007 [Thread-8:123145326276608] [django.request:228] [WARNING]- Not Found: /backend/service/test1-1
+2020-08-11 06:20:21,169 [Thread-5:123145537601536] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-11 06:20:21,170 [Thread-6:123145542856704] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-11 08:32:07,054 [Thread-2:123145470787584] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-11 08:32:07,055 [Thread-1:123145465532416] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-11 08:35:22,025 [Thread-1:123145465532416] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-11 08:35:22,026 [Thread-2:123145470787584] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js

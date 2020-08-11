@@ -4755,3 +4755,29 @@
 2020-08-11 03:54:14,058 [MainThread:4453666240] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
 2020-08-11 03:54:32,548 [MainThread:4453666240] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/models/base.py changed, reloading.
 2020-08-11 03:54:32,943 [MainThread:4411583936] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-11 06:12:08,079 [Thread-1:123145537601536] [django.server:157] [INFO]- "OPTIONS /backend/service/ HTTP/1.1" 200 0
+2020-08-11 06:12:08,079 [Thread-2:123145542856704] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-11 06:12:08,090 [Thread-4:123145553367040] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-11 06:12:08,102 [Thread-4:123145553367040] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-11 06:12:08,121 [Thread-3:123145548111872] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 881
+2020-08-11 06:20:21,170 [Thread-5:123145537601536] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 2357
+2020-08-11 06:20:21,171 [Thread-6:123145542856704] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=2 HTTP/1.1" 404 2357
+2020-08-11 08:16:02,464 [MainThread:4411583936] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/__init__.py changed, reloading.
+2020-08-11 08:16:02,897 [MainThread:4478692800] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-11 08:16:04,066 [MainThread:4478692800] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/__init__.py changed, reloading.
+2020-08-11 08:16:04,449 [MainThread:4604001728] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-11 08:16:33,570 [MainThread:4604001728] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/__init__.py changed, reloading.
+2020-08-11 08:16:33,882 [MainThread:4496117184] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-11 08:16:59,579 [MainThread:4378254784] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-11 08:32:07,055 [Thread-2:123145470787584] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=2 HTTP/1.1" 404 2357
+2020-08-11 08:32:07,055 [Thread-1:123145465532416] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 2357
+2020-08-11 08:35:22,026 [Thread-1:123145465532416] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 2357
+2020-08-11 08:35:22,027 [Thread-2:123145470787584] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=2 HTTP/1.1" 404 2357
+2020-08-11 08:55:17,838 [MainThread:4378254784] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/models/__init__.py changed, reloading.
+2020-08-11 08:55:18,382 [MainThread:4414868928] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-11 08:55:52,889 [MainThread:4414868928] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/models/interface.py changed, reloading.
+2020-08-11 08:55:53,281 [MainThread:4634131904] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-11 08:56:23,475 [MainThread:4634131904] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/models/interface.py changed, reloading.
+2020-08-11 08:56:23,876 [MainThread:4460809664] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-11 09:12:48,280 [MainThread:4460809664] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/models/__init__.py changed, reloading.
+2020-08-11 09:12:48,780 [MainThread:4728458688] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
