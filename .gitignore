@@ -2,6 +2,7 @@ vim .gitignore , **代表所有子目录
 --pycache--
 **/--pycache--
 *.pyc
+logs
 
 
 # If you are using PyCharm #
