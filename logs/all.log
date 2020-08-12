@@ -4831,3 +4831,9 @@
 2020-08-12 03:04:39,835 [Thread-3:123145481646080] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 142
 2020-08-12 03:04:39,843 [Thread-4:123145486901248] [star_app.views.user_views:30] [INFO]- aaa
 2020-08-12 03:04:39,852 [Thread-4:123145486901248] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-12 03:08:47,842 [Thread-5:123145492156416] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 2607
+2020-08-12 03:08:47,843 [Thread-6:123145497411584] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=2 HTTP/1.1" 404 2607
+2020-08-12 03:41:23,907 [MainThread:4479389120] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/sky_universe/urls.py changed, reloading.
+2020-08-12 03:41:24,436 [MainThread:4647562688] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-12 06:25:41,557 [Thread-2:123145434750976] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=2 HTTP/1.1" 404 2748
+2020-08-12 06:25:41,557 [Thread-1:123145429495808] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 2748
