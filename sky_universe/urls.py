@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from star_app.views import user_views,service_list_views,service_detail_views
+from star_app.views import user_views
+from star_app.views.service import service_detail_views, service_list_views
+from star_app.views.interface import interface_list_views,interface_detail_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -23,6 +25,10 @@ urlpatterns = [
     # path('backend/user/login', user_views.login_user),
     # path('backend/user/get_user', user_views.get_user),
     path('backend/user/', user_views.UserViews.as_view()),
+
     path('backend/service/', service_list_views.ServiceListView.as_view()),
     path('backend/service/<int:pk>', service_detail_views.ServiceDetailView.as_view()),
+
+    path('backend/interface/', interface_list_views.InterfaceListView.as_view()),
+    path('backend/interface/<int:pk>', interface_detail_views.InterfaceDetailView.as_view()),
 ]

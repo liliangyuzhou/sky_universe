@@ -13,14 +13,14 @@ class InterfaceForm(forms.Form):
     description = forms.CharField(max_length=200, required=False)
     host = forms.CharField(max_length=200, required=False)
     url = forms.CharField(max_length=500, required=True)
-    method = forms.CharFiel(max_length=20, required=True)
+    method = forms.CharField(max_length=20, required=True)
     headers = ObjectField(required=False)
     parameter = ObjectField(required=False)
     parameter_type = forms.CharField(required=False, max_length=20)
-    response = forms.TextField(required=False)
+    response = forms.CharField(required=False)
     response_type = forms.CharField(required=False, max_length=20)
 
-    asserts = forms.TextField(required=False)
+    asserts = forms.CharField(required=False)
     service_id = forms.IntegerField(required=True)
 
     def clean_service_id(self):

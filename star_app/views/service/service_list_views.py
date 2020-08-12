@@ -1,7 +1,7 @@
 # coding=utf-8
 # @Time    : 2020/8/5 2:39 下午
 # @Author  : liliang
-# @File    : service_list_views.py
+# @File    : interface_list_views.py
 from django.views import View
 from star_app.models.services import Services,IS_ROOT
 from star_app.forms import services_form

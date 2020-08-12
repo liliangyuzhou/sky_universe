@@ -4781,3 +4781,53 @@
 2020-08-11 08:56:23,876 [MainThread:4460809664] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
 2020-08-11 09:12:48,280 [MainThread:4460809664] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/models/__init__.py changed, reloading.
 2020-08-11 09:12:48,780 [MainThread:4728458688] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-11 09:56:49,829 [Thread-1:123145364602880] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 2357
+2020-08-11 09:56:49,829 [Thread-2:123145369858048] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=2 HTTP/1.1" 404 2357
+2020-08-11 09:59:11,611 [Thread-2:123145369858048] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 2357
+2020-08-11 09:59:11,612 [Thread-1:123145364602880] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=2 HTTP/1.1" 404 2357
+2020-08-11 09:59:38,336 [Thread-3:123145375113216] [django.server:157] [INFO]- "OPTIONS /backend/service/ HTTP/1.1" 200 0
+2020-08-11 09:59:38,336 [Thread-4:123145380368384] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-11 09:59:38,343 [Thread-6:123145390878720] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-11 09:59:38,361 [Thread-6:123145390878720] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-11 09:59:38,402 [Thread-5:123145385623552] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 881
+2020-08-11 10:01:25,926 [Thread-4:123145380368384] [django.server:157] [INFO]- "OPTIONS /backend/service/33 HTTP/1.1" 200 0
+2020-08-11 10:01:25,937 [Thread-5:123145385623552] [django.server:157] [INFO]- "DELETE /backend/service/33 HTTP/1.1" 200 44
+2020-08-11 10:01:25,950 [Thread-5:123145385623552] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 44
+2020-08-11 10:01:30,010 [Thread-6:123145390878720] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-11 10:01:30,014 [Thread-5:123145385623552] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 44
+2020-08-11 10:01:30,017 [Thread-6:123145390878720] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-11 10:01:55,638 [Thread-1:123145364602880] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 2357
+2020-08-11 10:01:55,638 [Thread-2:123145369858048] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=2 HTTP/1.1" 404 2357
+2020-08-11 10:08:56,928 [Thread-8:123145369858048] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=2 HTTP/1.1" 404 2357
+2020-08-11 10:08:56,928 [Thread-7:123145364602880] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 2357
+2020-08-11 10:30:38,460 [Thread-9:123145364602880] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 2357
+2020-08-11 10:30:38,460 [Thread-10:123145369858048] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=2 HTTP/1.1" 404 2357
+2020-08-11 10:38:27,473 [Thread-11:123145364602880] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 2357
+2020-08-11 10:38:27,475 [Thread-12:123145369858048] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=2 HTTP/1.1" 404 2357
+2020-08-11 11:33:09,339 [MainThread:4728458688] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/sky_universe/urls.py changed, reloading.
+2020-08-11 11:33:09,863 [MainThread:4510563776] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-11 11:33:13,788 [Thread-2:123145427591168] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-11 11:33:13,795 [Thread-1:123145422336000] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 44
+2020-08-11 11:33:13,797 [Thread-2:123145427591168] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-11 11:33:26,976 [Thread-2:123145427591168] [django.server:157] [INFO]- "POST /backend/service/ HTTP/1.1" 200 44
+2020-08-11 11:33:26,989 [Thread-2:123145427591168] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 142
+2020-08-11 11:38:28,981 [MainThread:4510563776] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/views/service/service_list_views.py changed, reloading.
+2020-08-11 11:38:29,470 [MainThread:4790279616] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-11 11:57:06,315 [MainThread:4790279616] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/sky_universe/urls.py changed, reloading.
+2020-08-11 11:57:06,822 [MainThread:4595502528] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-11 11:59:44,705 [MainThread:4360506816] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-11 11:59:58,811 [MainThread:4360506816] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/forms/interface_form.py changed, reloading.
+2020-08-11 11:59:59,228 [MainThread:4637646272] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-11 12:01:13,361 [MainThread:4637646272] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/forms/interface_form.py changed, reloading.
+2020-08-11 12:01:13,749 [MainThread:4559732160] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-11 12:02:06,530 [MainThread:4559732160] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/views/interface/interface_detail_views.py changed, reloading.
+2020-08-11 12:02:07,028 [MainThread:4620877248] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-11 12:12:40,370 [MainThread:4620877248] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/models/interface.py changed, reloading.
+2020-08-11 12:12:40,871 [MainThread:4781956544] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-11 12:16:52,140 [MainThread:4781956544] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/models/interface.py changed, reloading.
+2020-08-11 12:16:52,652 [MainThread:4479389120] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-12 03:04:39,776 [Thread-1:123145471135744] [django.server:157] [INFO]- "OPTIONS /backend/service/ HTTP/1.1" 200 0
+2020-08-12 03:04:39,776 [Thread-2:123145476390912] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-12 03:04:39,835 [Thread-3:123145481646080] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 142
+2020-08-12 03:04:39,843 [Thread-4:123145486901248] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-12 03:04:39,852 [Thread-4:123145486901248] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
