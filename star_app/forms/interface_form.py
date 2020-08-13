@@ -17,7 +17,7 @@ class InterfaceForm(forms.Form):
     headers = ObjectField(required=False)
     parameter = ObjectField(required=False)
     parameter_type = forms.CharField(required=False, max_length=20)
-    response = forms.CharField(required=False)
+    response = ObjectField(required=False)
     response_type = forms.CharField(required=False, max_length=20)
 
     asserts = forms.CharField(required=False)

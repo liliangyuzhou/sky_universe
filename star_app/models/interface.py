@@ -18,7 +18,7 @@ class Interface(models.Model, Base):
     headers = ObjectField('headers', default={})
     parameter = ObjectField('parameter', default={})
     parameter_type = models.CharField('parameter_type,json or form', default="json", max_length=20)
-    response = models.TextField('response', default='')
+    response = ObjectField('response', default='')
     response_type = models.CharField('parameter_type,json or form', default="json", max_length=20)
 
     asserts = models.TextField('asserts', default='')
