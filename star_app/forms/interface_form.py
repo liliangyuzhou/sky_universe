@@ -20,7 +20,7 @@ class InterfaceForm(forms.Form):
     response = ObjectField(required=False)
     response_type = forms.CharField(required=False, max_length=20)
 
-    asserts = forms.CharField(required=False)
+    asserts = ObjectField(required=False)
     service_id = forms.IntegerField(required=True)
 
     def clean_service_id(self):

@@ -36,10 +36,14 @@ class InterfaceListView(View):
         """
         body = request.body
         params = json.loads(body)
+        print(params)
         form = interface_form.InterfaceForm(params)
+        # print(form)
         result = form.is_valid()
+        print(form.cleaned_data)
         if result:
             service = Interface.objects.create(**form.cleaned_data)
+
             if service:
                 return response_success()
             else:

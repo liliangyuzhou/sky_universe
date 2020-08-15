@@ -18,23 +18,31 @@ class ObjectField(forms.Field):
         """
         to_python通过反序列化和从表单使用的clean()方法调用，作为一般规则，to_python方法应该处理下面所有的参数
         字符串，None（如果字段null=True)
+        从models里面读取的数据经过该函数处理
         :param value:
         :return:
         """
         if value is None:
             return value
+        if isinstance(value,dict) or isinstance(value,list):
+            return value
         try:
             ret = json.loads(value)
         except:
-            return None
+            return dict()
         else:
             return ret
 
     def validate(self, value):
+
         """
       验证参数是否正确
         :param value:
         :return:
         """
-        if not isinstance(value, dict) or not isinstance(value, list):
-            raise forms.ValidationError("格式不正确")
+        # 验证是否是必填self.required
+        if self.required:
+            if not isinstance(value, dict) or not isinstance(value, list):
+                raise forms.ValidationError("格式不正确")
+        else:
+            return self.to_python(value)

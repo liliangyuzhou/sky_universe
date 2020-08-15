@@ -12,7 +12,8 @@ class ObjectField(models.TextField):
     def __init__(self, *args, **kwargs):
         super(models.TextField,self).__init__(*args, **kwargs)
 
-    def from_db_value(self, value,expression,connection,context):
+    def from_db_value(self, value,expression,connection):
+        'context这个参数去掉了，在Django后面的版本中'
         """从数据库中读取，只处理两种情况，None和 不是None，不是的时候转换为json格式"""
         if value is None:
             return value

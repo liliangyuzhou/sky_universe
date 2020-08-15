@@ -26,7 +26,8 @@ class InterfaceDetailView(View):
         :return:
         """
         try:
-            interfaces=interface.Interface.objects.get(pk)
+            interfaces=interface.Interface.objects.get(id=pk)
+            print(interfaces)
         except interface.Interface.DoesNotExist:
             return reponse_fail()
         else:
