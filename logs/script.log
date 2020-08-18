@@ -61,3 +61,15 @@ TypeError: process_response() takes 2 positional arguments but 3 were given
 2020-08-14 08:56:53,370 [Thread-4:123145411182592] [django.request:228] [WARNING]- Not Found: /backend/interface/NaN
 2020-08-15 12:21:08,872 [Thread-1:123145432666112] [django.request:228] [WARNING]- Not Found: /backend/interface/NaN
 2020-08-15 12:28:58,088 [Thread-2:123145432666112] [django.request:228] [WARNING]- Not Found: /backend/interface/NaN
+2020-08-17 03:37:43,935 [Thread-14:123145437921280] [django.request:228] [WARNING]- Not Found: /backend/interface/undefinedinterfaces
+2020-08-17 03:37:43,964 [Thread-14:123145437921280] [django.request:228] [WARNING]- Not Found: /backend/interface/undefinedinterfaces
+2020-08-17 03:46:20,279 [Thread-16:123145437921280] [django.request:228] [WARNING]- Not Found: /backend/interface/undefinedinterfaces
+2020-08-17 03:46:20,299 [Thread-16:123145437921280] [django.request:228] [WARNING]- Not Found: /backend/interface/undefinedinterfaces
+2020-08-17 03:46:34,540 [Thread-16:123145437921280] [django.request:228] [WARNING]- Not Found: /backend/interface/undefinedinterfaces
+2020-08-17 04:02:01,483 [Thread-18:123145437921280] [django.request:228] [WARNING]- Not Found: /backend/interface/undefinedinterfaces
+2020-08-17 04:02:01,536 [Thread-18:123145437921280] [django.request:228] [WARNING]- Not Found: /backend/interface/undefinedinterfaces
+2020-08-17 04:03:59,834 [Thread-18:123145437921280] [django.request:228] [WARNING]- Not Found: /backend/interface/undefinedinterfaces
+2020-08-17 04:19:07,124 [Thread-23:123145432666112] [django.request:228] [WARNING]- Not Found: /backend/interface/34interfaces
+2020-08-17 04:19:08,110 [Thread-23:123145432666112] [django.request:228] [WARNING]- Not Found: /backend/interface/36interfaces
+2020-08-17 04:23:20,322 [Thread-24:123145437921280] [django.request:228] [WARNING]- Not Found: /backend/service/35interfaces
+2020-08-17 04:23:20,887 [Thread-24:123145437921280] [django.request:228] [WARNING]- Not Found: /backend/service/36interfaces
