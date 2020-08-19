@@ -6202,3 +6202,185 @@
 2020-08-18 02:38:45,953 [Thread-2:123145318211584] [django.server:157] [INFO]- "GET /backend/service/38/interfaces HTTP/1.1" 200 1093
 2020-08-18 02:38:46,626 [Thread-1:123145312956416] [django.server:157] [INFO]- "OPTIONS /backend/service/38/interfaces HTTP/1.1" 200 0
 2020-08-18 02:38:46,634 [Thread-2:123145318211584] [django.server:157] [INFO]- "GET /backend/service/38/interfaces HTTP/1.1" 200 1093
+2020-08-18 02:43:59,828 [MainThread:4429897152] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-18 03:04:31,141 [Thread-1:123145470619648] [django.server:157] [INFO]- "OPTIONS /backend/service/ HTTP/1.1" 200 0
+2020-08-18 03:04:31,141 [Thread-2:123145475874816] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-18 03:04:31,152 [Thread-3:123145481129984] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-18 03:04:31,162 [Thread-3:123145481129984] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-18 03:04:31,167 [Thread-4:123145486385152] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 03:04:33,196 [Thread-1:123145470619648] [django.server:157] [INFO]- "OPTIONS /backend/service/ HTTP/1.1" 200 0
+2020-08-18 03:04:33,197 [Thread-2:123145475874816] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-18 03:04:33,203 [Thread-3:123145481129984] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-18 03:04:33,213 [Thread-3:123145481129984] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-18 03:04:33,219 [Thread-4:123145486385152] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 03:04:34,583 [Thread-2:123145475874816] [django.server:157] [INFO]- "OPTIONS /backend/service/34/interfaces HTTP/1.1" 200 0
+2020-08-18 03:04:34,594 [Thread-4:123145486385152] [django.server:157] [INFO]- "GET /backend/service/34/interfaces HTTP/1.1" 200 524
+2020-08-18 03:05:56,644 [Thread-2:123145475874816] [django.server:157] [INFO]- "OPTIONS /backend/service/ HTTP/1.1" 200 0
+2020-08-18 03:05:56,644 [Thread-1:123145470619648] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-18 03:05:56,651 [Thread-4:123145486385152] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-18 03:05:56,666 [Thread-4:123145486385152] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-18 03:05:56,673 [Thread-3:123145481129984] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 03:08:12,177 [Thread-6:123145496895488] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=2 HTTP/1.1" 404 2862
+2020-08-18 03:08:12,177 [Thread-5:123145491640320] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 2862
+2020-08-18 03:28:22,005 [Thread-7:123145470619648] [django.server:157] [INFO]- "OPTIONS /backend/service/34/interfaces HTTP/1.1" 200 0
+2020-08-18 03:28:22,016 [Thread-8:123145475874816] [django.server:157] [INFO]- "GET /backend/service/34/interfaces HTTP/1.1" 200 524
+2020-08-18 03:31:30,171 [Thread-7:123145470619648] [django.server:157] [INFO]- "OPTIONS /backend/service/ HTTP/1.1" 200 0
+2020-08-18 03:31:30,174 [Thread-7:123145470619648] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-18 03:31:30,180 [Thread-10:123145486385152] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-18 03:31:30,194 [Thread-10:123145486385152] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-18 03:31:30,195 [Thread-8:123145475874816] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 03:32:18,738 [Thread-9:123145481129984] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-18 03:32:18,738 [Thread-7:123145470619648] [django.server:157] [INFO]- "OPTIONS /backend/service/ HTTP/1.1" 200 0
+2020-08-18 03:32:18,743 [Thread-8:123145475874816] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-18 03:32:18,751 [Thread-8:123145475874816] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-18 03:32:18,761 [Thread-10:123145486385152] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 03:32:22,318 [Thread-7:123145470619648] [django.server:157] [INFO]- "OPTIONS /backend/service/38/interfaces HTTP/1.1" 200 0
+2020-08-18 03:32:22,328 [Thread-10:123145486385152] [django.server:157] [INFO]- "GET /backend/service/38/interfaces HTTP/1.1" 200 1093
+2020-08-18 03:32:34,086 [Thread-7:123145470619648] [django.server:157] [INFO]- "OPTIONS /backend/service/34/interfaces HTTP/1.1" 200 0
+2020-08-18 03:32:34,095 [Thread-10:123145486385152] [django.server:157] [INFO]- "GET /backend/service/34/interfaces HTTP/1.1" 200 524
+2020-08-18 03:32:35,046 [Thread-7:123145470619648] [django.server:157] [INFO]- "OPTIONS /backend/service/35/interfaces HTTP/1.1" 200 0
+2020-08-18 03:32:35,056 [Thread-10:123145486385152] [django.server:157] [INFO]- "GET /backend/service/35/interfaces HTTP/1.1" 200 3443
+2020-08-18 03:32:39,148 [Thread-7:123145470619648] [django.server:157] [INFO]- "OPTIONS /backend/interface/14 HTTP/1.1" 200 0
+2020-08-18 03:32:39,155 [Thread-10:123145486385152] [django.server:157] [INFO]- "GET /backend/interface/14 HTTP/1.1" 200 258
+2020-08-18 03:32:55,601 [Thread-10:123145486385152] [django.server:157] [INFO]- "GET /backend/interface/14 HTTP/1.1" 200 258
+2020-08-18 03:39:32,693 [Thread-11:123145470619648] [django.server:157] [INFO]- "OPTIONS /backend/service/ HTTP/1.1" 200 0
+2020-08-18 03:39:32,695 [Thread-12:123145475874816] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-18 03:39:32,704 [Thread-14:123145486385152] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-18 03:39:32,716 [Thread-13:123145481129984] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 03:39:32,717 [Thread-14:123145486385152] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 64
+2020-08-18 03:39:39,594 [Thread-12:123145475874816] [django.server:157] [INFO]- "OPTIONS /backend/service/ HTTP/1.1" 200 0
+2020-08-18 03:39:39,611 [Thread-14:123145486385152] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 03:39:39,624 [Thread-12:123145475874816] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-18 03:39:39,629 [Thread-14:123145486385152] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-18 03:39:39,634 [Thread-14:123145486385152] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 64
+2020-08-18 03:39:46,041 [Thread-12:123145475874816] [django.server:157] [INFO]- "OPTIONS /backend/service/ HTTP/1.1" 200 0
+2020-08-18 03:39:46,041 [Thread-11:123145470619648] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-18 03:39:46,047 [Thread-13:123145481129984] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-18 03:39:46,054 [Thread-13:123145481129984] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 64
+2020-08-18 03:39:46,060 [Thread-14:123145486385152] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 03:40:21,565 [Thread-11:123145470619648] [django.server:157] [INFO]- "OPTIONS /backend/service/ HTTP/1.1" 200 0
+2020-08-18 03:40:21,566 [Thread-12:123145475874816] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-18 03:40:21,575 [Thread-13:123145481129984] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-18 03:40:21,591 [Thread-13:123145481129984] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 64
+2020-08-18 03:40:21,599 [Thread-14:123145486385152] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 03:40:56,186 [Thread-13:123145481129984] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-18 03:40:56,199 [Thread-13:123145481129984] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-18 03:40:56,201 [Thread-14:123145486385152] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 03:41:03,002 [Thread-13:123145481129984] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-18 03:41:03,008 [Thread-13:123145481129984] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-18 03:41:03,013 [Thread-14:123145486385152] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 03:41:13,032 [Thread-14:123145486385152] [django.server:157] [INFO]- "GET /backend/service/34/interfaces HTTP/1.1" 200 524
+2020-08-18 03:41:16,292 [Thread-12:123145475874816] [django.server:157] [INFO]- "OPTIONS /backend/interface/6 HTTP/1.1" 200 0
+2020-08-18 03:41:16,299 [Thread-14:123145486385152] [django.server:157] [INFO]- "GET /backend/interface/6 HTTP/1.1" 200 522
+2020-08-18 03:41:56,999 [Thread-14:123145486385152] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 05:34:33,276 [Thread-16:123145475874816] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-18 05:34:33,291 [Thread-16:123145475874816] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-18 05:34:33,292 [Thread-15:123145470619648] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 05:34:35,545 [Thread-17:123145481129984] [django.server:157] [INFO]- "OPTIONS /backend/service/38/interfaces HTTP/1.1" 200 0
+2020-08-18 05:34:35,552 [Thread-15:123145470619648] [django.server:157] [INFO]- "GET /backend/service/38/interfaces HTTP/1.1" 200 1093
+2020-08-18 05:34:50,400 [Thread-15:123145470619648] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 05:34:54,271 [Thread-15:123145470619648] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 05:39:49,702 [Thread-15:123145470619648] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 05:40:25,499 [Thread-18:123145475874816] [django.server:157] [INFO]- "OPTIONS /backend/service/ HTTP/1.1" 200 0
+2020-08-18 05:40:25,515 [Thread-15:123145470619648] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 05:40:26,885 [Thread-18:123145475874816] [django.server:157] [INFO]- "OPTIONS /backend/service/34/interfaces HTTP/1.1" 200 0
+2020-08-18 05:40:26,892 [Thread-15:123145470619648] [django.server:157] [INFO]- "GET /backend/service/34/interfaces HTTP/1.1" 200 524
+2020-08-18 05:40:27,331 [Thread-15:123145470619648] [django.server:157] [INFO]- "GET /backend/service/34/interfaces HTTP/1.1" 200 524
+2020-08-18 05:40:29,058 [Thread-15:123145470619648] [django.server:157] [INFO]- "GET /backend/service/38/interfaces HTTP/1.1" 200 1093
+2020-08-18 05:44:32,444 [Thread-15:123145470619648] [django.server:157] [INFO]- "GET /backend/service/34/interfaces HTTP/1.1" 200 524
+2020-08-18 05:44:33,411 [Thread-15:123145470619648] [django.server:157] [INFO]- "GET /backend/service/38/interfaces HTTP/1.1" 200 1093
+2020-08-18 05:44:34,176 [Thread-15:123145470619648] [django.server:157] [INFO]- "GET /backend/service/38/interfaces HTTP/1.1" 200 1093
+2020-08-18 05:46:07,688 [MainThread:4429897152] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/utils/request_util.py changed, reloading.
+2020-08-18 05:46:08,221 [MainThread:4519804352] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-18 05:48:47,543 [MainThread:4519804352] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/utils/request_util.py changed, reloading.
+2020-08-18 05:48:47,898 [MainThread:4660751808] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-18 05:49:21,060 [Thread-1:123145475420160] [django.server:157] [INFO]- "OPTIONS /backend/debug/ HTTP/1.1" 200 0
+2020-08-18 05:49:21,070 [Thread-2:123145480675328] [django.server:157] [INFO]- "POST /backend/debug/ HTTP/1.1" 200 99
+2020-08-18 05:49:26,968 [Thread-2:123145480675328] [django.server:157] [INFO]- "POST /backend/debug/ HTTP/1.1" 200 99
+2020-08-18 05:49:41,337 [Thread-2:123145480675328] [django.server:157] [INFO]- "POST /backend/debug/ HTTP/1.1" 200 3220
+2020-08-18 05:49:58,044 [Thread-2:123145480675328] [django.server:157] [INFO]- "POST /backend/debug/ HTTP/1.1" 200 3220
+2020-08-18 05:49:59,663 [Thread-2:123145480675328] [django.server:157] [INFO]- "POST /backend/debug/ HTTP/1.1" 200 3220
+2020-08-18 05:50:06,168 [Thread-2:123145480675328] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 05:50:07,641 [Thread-1:123145475420160] [django.server:157] [INFO]- "OPTIONS /backend/service/35/interfaces HTTP/1.1" 200 0
+2020-08-18 05:50:07,650 [Thread-2:123145480675328] [django.server:157] [INFO]- "GET /backend/service/35/interfaces HTTP/1.1" 200 3443
+2020-08-18 05:50:08,086 [Thread-2:123145480675328] [django.server:157] [INFO]- "GET /backend/service/34/interfaces HTTP/1.1" 200 524
+2020-08-18 05:50:09,029 [Thread-2:123145480675328] [django.server:157] [INFO]- "GET /backend/service/35/interfaces HTTP/1.1" 200 3443
+2020-08-18 05:50:09,402 [Thread-2:123145480675328] [django.server:157] [INFO]- "GET /backend/service/38/interfaces HTTP/1.1" 200 1093
+2020-08-18 05:50:19,846 [Thread-2:123145480675328] [django.server:157] [INFO]- "POST /backend/debug/ HTTP/1.1" 200 193363
+2020-08-18 05:50:33,004 [Thread-2:123145480675328] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 05:50:33,930 [Thread-2:123145480675328] [django.server:157] [INFO]- "GET /backend/service/38/interfaces HTTP/1.1" 200 1093
+2020-08-18 05:51:08,082 [Thread-2:123145480675328] [django.server:157] [INFO]- "POST /backend/debug/ HTTP/1.1" 200 578
+2020-08-18 05:52:36,729 [Thread-2:123145480675328] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 05:52:42,158 [Thread-2:123145480675328] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 05:53:22,256 [Thread-2:123145480675328] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 06:26:18,653 [Thread-3:123145475420160] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 06:30:22,975 [Thread-4:123145480675328] [django.server:157] [INFO]- "OPTIONS /backend/service/38/interfaces HTTP/1.1" 200 0
+2020-08-18 06:30:22,986 [Thread-3:123145475420160] [django.server:157] [INFO]- "GET /backend/service/38/interfaces HTTP/1.1" 200 1093
+2020-08-18 06:30:35,164 [Thread-4:123145480675328] [django.server:157] [INFO]- "OPTIONS /backend/service/34/interfaces HTTP/1.1" 200 0
+2020-08-18 06:30:35,174 [Thread-3:123145475420160] [django.server:157] [INFO]- "GET /backend/service/34/interfaces HTTP/1.1" 200 524
+2020-08-18 07:38:26,890 [Thread-5:123145475420160] [django.server:157] [INFO]- "OPTIONS /backend/service/ HTTP/1.1" 200 0
+2020-08-18 07:38:26,890 [Thread-6:123145480675328] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-18 07:38:26,905 [Thread-8:123145491722240] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-18 07:38:26,928 [Thread-8:123145491722240] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-18 07:38:26,932 [Thread-7:123145486467072] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 07:38:28,746 [Thread-6:123145480675328] [django.server:157] [INFO]- "OPTIONS /backend/service/35/interfaces HTTP/1.1" 200 0
+2020-08-18 07:38:28,761 [Thread-7:123145486467072] [django.server:157] [INFO]- "GET /backend/service/35/interfaces HTTP/1.1" 200 3443
+2020-08-18 07:38:29,138 [Thread-6:123145480675328] [django.server:157] [INFO]- "OPTIONS /backend/service/34/interfaces HTTP/1.1" 200 0
+2020-08-18 07:38:29,149 [Thread-7:123145486467072] [django.server:157] [INFO]- "GET /backend/service/34/interfaces HTTP/1.1" 200 524
+2020-08-18 07:38:29,810 [Thread-6:123145480675328] [django.server:157] [INFO]- "OPTIONS /backend/service/38/interfaces HTTP/1.1" 200 0
+2020-08-18 07:38:29,819 [Thread-7:123145486467072] [django.server:157] [INFO]- "GET /backend/service/38/interfaces HTTP/1.1" 200 1093
+2020-08-18 08:20:45,453 [MainThread:4660751808] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/sky_universe/settings.py changed, reloading.
+2020-08-18 08:20:46,036 [MainThread:4692176320] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-18 08:21:07,862 [MainThread:4692176320] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/sky_universe/settings.py changed, reloading.
+2020-08-18 08:21:08,226 [MainThread:4661140928] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-18 08:21:19,226 [MainThread:4661140928] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/sky_universe/settings.py changed, reloading.
+2020-08-18 16:21:19,616 [MainThread:4414123456] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-18 16:28:12,795 [MainThread:4414123456] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/sky_universe/settings.py changed, reloading.
+2020-08-18 16:28:13,173 [MainThread:4684115392] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-18 17:05:57,098 [Thread-1:123145439850496] [django.server:157] [INFO]- "GET /backend/service/38/interfaces HTTP/1.1" 200 1093
+2020-08-18 17:08:46,337 [Thread-1:123145439850496] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-18 17:16:10,401 [MainThread:4684115392] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/models/__init__.py changed, reloading.
+2020-08-18 17:16:10,775 [MainThread:4556815808] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-18 17:34:10,173 [MainThread:4556815808] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/models/task.py changed, reloading.
+2020-08-18 17:34:10,526 [MainThread:4442262976] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-18 19:13:45,976 [MainThread:4442262976] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/models/results.py changed, reloading.
+2020-08-18 19:13:46,438 [MainThread:4786642368] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-18 19:15:05,472 [MainThread:4786642368] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/sky_universe/settings.py changed, reloading.
+2020-08-18 19:15:05,843 [MainThread:4616498624] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-18 19:15:25,244 [MainThread:4616498624] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/sky_universe/settings.py changed, reloading.
+2020-08-18 19:15:25,649 [MainThread:4619050432] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-18 19:21:01,536 [MainThread:4619050432] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/models/__init__.py changed, reloading.
+2020-08-18 19:21:01,911 [MainThread:4349652416] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-18 19:22:36,840 [MainThread:4349652416] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/models/results.py changed, reloading.
+2020-08-18 19:22:37,240 [MainThread:4631530944] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-19 10:26:39,909 [MainThread:4398427584] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-19 10:26:47,841 [Thread-2:123145401032704] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-19 10:26:47,842 [Thread-1:123145395777536] [django.server:157] [INFO]- "OPTIONS /backend/service/ HTTP/1.1" 200 0
+2020-08-19 10:26:47,848 [Thread-3:123145406287872] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-19 10:26:47,865 [Thread-3:123145406287872] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 64
+2020-08-19 10:26:47,866 [Thread-4:123145411543040] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-19 10:28:22,256 [Thread-4:123145411543040] [django.server:157] [INFO]- "PUT /backend/user/ HTTP/1.1" 200 75
+2020-08-19 10:28:25,710 [Thread-4:123145411543040] [django.server:157] [INFO]- "PUT /backend/user/ HTTP/1.1" 200 89
+2020-08-19 10:28:25,857 [Thread-3:123145406287872] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-19 10:28:25,866 [Thread-3:123145406287872] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-19 10:28:25,871 [Thread-4:123145411543040] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-19 10:28:27,095 [Thread-1:123145395777536] [django.server:157] [INFO]- "OPTIONS /backend/service/34/interfaces HTTP/1.1" 200 0
+2020-08-19 10:28:27,104 [Thread-4:123145411543040] [django.server:157] [INFO]- "GET /backend/service/34/interfaces HTTP/1.1" 200 524
+2020-08-19 10:28:27,535 [Thread-1:123145395777536] [django.server:157] [INFO]- "OPTIONS /backend/service/38/interfaces HTTP/1.1" 200 0
+2020-08-19 10:28:27,544 [Thread-4:123145411543040] [django.server:157] [INFO]- "GET /backend/service/38/interfaces HTTP/1.1" 200 1093
+2020-08-19 10:28:33,289 [Thread-4:123145411543040] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-19 10:40:25,958 [Thread-6:123145401032704] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-19 10:40:25,972 [Thread-6:123145401032704] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-19 10:40:25,976 [Thread-5:123145395777536] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
+2020-08-19 13:39:12,321 [Thread-7:123145395777536] [django.server:157] [INFO]- "OPTIONS /backend/service/38/interfaces HTTP/1.1" 200 0
+2020-08-19 13:39:12,335 [Thread-8:123145401032704] [django.server:157] [INFO]- "GET /backend/service/38/interfaces HTTP/1.1" 200 1093
+2020-08-19 13:39:39,191 [Thread-7:123145395777536] [django.server:157] [INFO]- "OPTIONS /backend/service/34/interfaces HTTP/1.1" 200 0
+2020-08-19 13:39:39,199 [Thread-8:123145401032704] [django.server:157] [INFO]- "GET /backend/service/34/interfaces HTTP/1.1" 200 524
+2020-08-19 13:39:40,353 [Thread-8:123145401032704] [django.server:157] [INFO]- "GET /backend/service/34/interfaces HTTP/1.1" 200 524
+2020-08-19 13:39:41,418 [Thread-8:123145401032704] [django.server:157] [INFO]- "GET /backend/service/38/interfaces HTTP/1.1" 200 1093
+2020-08-19 13:53:07,454 [MainThread:4398427584] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/models/__init__.py changed, reloading.
+2020-08-19 13:53:08,036 [MainThread:4386909632] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-19 14:52:22,360 [MainThread:4386909632] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/sky_universe/urls.py changed, reloading.
+2020-08-19 14:52:22,891 [MainThread:4605070784] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-19 14:52:40,466 [MainThread:4605070784] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/sky_universe/urls.py changed, reloading.
+2020-08-19 14:52:40,799 [MainThread:4541545920] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader

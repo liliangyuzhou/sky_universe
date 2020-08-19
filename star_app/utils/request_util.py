@@ -63,19 +63,28 @@ class Request_Utils:
     @classmethod
     def __post(cls, url, headers, parameter, parameter_type):
         headers=cls.__set_header(headers, parameter_type)
-        response = requests.post(url=url, data=parameter, headers=headers, )
+        if parameter_type == "json":
+            response = requests.post(url=url, json=parameter, headers=headers, )
+        else:
+            response = requests.post(url=url, data=parameter, headers=headers, )
         return response.text
 
     @classmethod
     def __put(cls, url, parameter, headers, parameter_type):
         headers = cls.__set_header(headers, parameter_type)
-        response = requests.put(url=url, data=parameter, headers=headers)
+        if parameter_type == "json":
+            response = requests.put(url=url, json=parameter, headers=headers, )
+        else:
+            response = requests.put(url=url, data=parameter, headers=headers, )
         return response.text
 
     @classmethod
     def __delete(cls, url, headers, parameter, parameter_type):
         headers = cls.__set_header(headers, parameter_type)
-        response = requests.delete(url=url, headers=headers, data=parameter)
+        if parameter_type == "json":
+            response = requests.delete(url=url, json=parameter, headers=headers, )
+        else:
+            response = requests.delete(url=url, data=parameter, headers=headers, )
         return response.text
 
     @classmethod

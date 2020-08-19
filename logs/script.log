@@ -73,3 +73,5 @@ TypeError: process_response() takes 2 positional arguments but 3 were given
 2020-08-17 04:19:08,110 [Thread-23:123145432666112] [django.request:228] [WARNING]- Not Found: /backend/interface/36interfaces
 2020-08-17 04:23:20,322 [Thread-24:123145437921280] [django.request:228] [WARNING]- Not Found: /backend/service/35interfaces
 2020-08-17 04:23:20,887 [Thread-24:123145437921280] [django.request:228] [WARNING]- Not Found: /backend/service/36interfaces
+2020-08-18 03:08:12,176 [Thread-6:123145496895488] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-18 03:08:12,177 [Thread-5:123145491640320] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
