@@ -6384,3 +6384,8 @@
 2020-08-19 14:52:22,891 [MainThread:4605070784] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
 2020-08-19 14:52:40,466 [MainThread:4605070784] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/sky_universe/urls.py changed, reloading.
 2020-08-19 14:52:40,799 [MainThread:4541545920] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-19 16:12:04,248 [MainThread:4568759744] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-19 16:17:30,918 [MainThread:4568759744] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/views/debug/debug_list_views.py changed, reloading.
+2020-08-19 16:17:31,434 [MainThread:4688965056] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-19 16:17:40,203 [MainThread:4688965056] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/forms/debug_form.py changed, reloading.
+2020-08-19 16:17:40,610 [MainThread:4371631552] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
