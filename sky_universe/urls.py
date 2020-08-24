@@ -21,6 +21,8 @@ from star_app.views.interface import interface_list_views, interface_detail_view
 from star_app.views.service import service_interface_detail_views
 from star_app.views.debug import debug_list_views
 from star_app.views.task import task_detail_views,task_list_views
+from star_app.views.task import task_detail_interfaces_views
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -40,5 +42,7 @@ urlpatterns = [
 
     path('backend/task/', task_list_views.TaskListView.as_view()),
     path('backend/task/<int:pk>', task_detail_views.TaskDetailView.as_view()),
+
+    path('backend/task/<int:pk>/interface/',  task_detail_interfaces_views.TaskDetailInterfacesView.as_view()),
 
 ]
