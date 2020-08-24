@@ -22,6 +22,7 @@ from star_app.views.service import service_interface_detail_views
 from star_app.views.debug import debug_list_views
 from star_app.views.task import task_detail_views,task_list_views
 from star_app.views.task import task_detail_interfaces_views
+from star_app.views.mock import mock_detail_views,mock_list_views
 
 
 urlpatterns = [
@@ -44,5 +45,10 @@ urlpatterns = [
     path('backend/task/<int:pk>', task_detail_views.TaskDetailView.as_view()),
 
     path('backend/task/<int:pk>/interface/',  task_detail_interfaces_views.TaskDetailInterfacesView.as_view()),
+
+    path('backend/mock/', mock_list_views.MockListView.as_view()),
+    path('backend/mock/<int:pk>', mock_detail_views.MockDetailView.as_view()),
+
+    path('backend/mock/<int:pk>/run', mock_detail_views.run_mock),
 
 ]

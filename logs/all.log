@@ -6851,3 +6851,225 @@
 2020-08-24 11:11:23,635 [Thread-28:123145337896960] [django.server:157] [INFO]- "GET /backend/service/ HTTP/1.1" 200 340
 2020-08-24 11:11:24,733 [Thread-27:123145332641792] [django.server:157] [INFO]- "OPTIONS /backend/task/ HTTP/1.1" 200 0
 2020-08-24 11:11:24,752 [Thread-28:123145337896960] [django.server:157] [INFO]- "GET /backend/task/ HTTP/1.1" 200 651
+2020-08-24 11:47:04,562 [Thread-29:123145332641792] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 3240
+2020-08-24 11:47:04,562 [Thread-30:123145337896960] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=2 HTTP/1.1" 404 3240
+2020-08-24 13:53:42,316 [Thread-31:123145332641792] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 3240
+2020-08-24 13:53:42,316 [Thread-32:123145337896960] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=2 HTTP/1.1" 404 3240
+2020-08-24 15:16:21,728 [Thread-34:123145337896960] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=2 HTTP/1.1" 404 3240
+2020-08-24 15:16:21,728 [Thread-33:123145332641792] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 3240
+2020-08-24 15:16:34,564 [Thread-34:123145337896960] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=2 HTTP/1.1" 404 3240
+2020-08-24 15:16:34,565 [Thread-33:123145332641792] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 3240
+2020-08-24 15:16:44,756 [Thread-34:123145337896960] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=2 HTTP/1.1" 404 3240
+2020-08-24 15:16:44,756 [Thread-33:123145332641792] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 3240
+2020-08-24 16:27:11,208 [Thread-35:123145332641792] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 3240
+2020-08-24 16:27:11,208 [Thread-36:123145337896960] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=2 HTTP/1.1" 404 3240
+2020-08-24 16:29:49,553 [Thread-35:123145332641792] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=2 HTTP/1.1" 404 3240
+2020-08-24 16:29:49,553 [Thread-36:123145337896960] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 3240
+2020-08-24 16:39:04,863 [Thread-37:123145332641792] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 3240
+2020-08-24 16:39:04,863 [Thread-38:123145337896960] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=2 HTTP/1.1" 404 3240
+2020-08-24 17:22:46,866 [MainThread:4609834432] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/sky_universe/urls.py changed, reloading.
+2020-08-24 17:22:47,490 [MainThread:4609433024] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-24 17:27:10,032 [MainThread:4609433024] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/views/mock/mock_detail_views.py changed, reloading.
+2020-08-24 17:27:10,552 [MainThread:4643474880] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-24 17:29:10,066 [MainThread:4643474880] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/sky_universe/urls.py changed, reloading.
+2020-08-24 17:29:10,443 [MainThread:4439219648] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-24 17:31:14,256 [MainThread:4439219648] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/views/mock/mock_detail_views.py changed, reloading.
+2020-08-24 17:31:14,730 [MainThread:4729343424] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-24 17:36:14,617 [MainThread:4729343424] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/views/mock/mock_detail_views.py changed, reloading.
+2020-08-24 17:36:15,156 [MainThread:4642246080] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-24 17:38:31,803 [MainThread:4642246080] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/views/mock/mock_detail_views.py changed, reloading.
+2020-08-24 17:38:32,336 [MainThread:4710911424] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-24 18:17:09,848 [Thread-1:123145557262336] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-24 18:17:09,863 [Thread-2:123145562517504] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-24 18:17:09,886 [Thread-2:123145562517504] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-24 18:17:19,061 [Thread-1:123145557262336] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-24 18:17:19,066 [Thread-2:123145562517504] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-24 18:17:19,079 [Thread-2:123145562517504] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-24 18:17:19,613 [Thread-1:123145557262336] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 18:17:19,660 [Thread-2:123145562517504] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 81
+2020-08-24 18:22:40,201 [Thread-3:123145557262336] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 18:22:40,217 [Thread-4:123145562517504] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 81
+2020-08-24 18:22:45,599 [Thread-3:123145557262336] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 18:22:45,609 [Thread-4:123145562517504] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 81
+2020-08-24 18:22:45,700 [Thread-3:123145557262336] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-24 18:22:45,705 [Thread-4:123145562517504] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-24 18:22:45,712 [Thread-4:123145562517504] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-24 18:26:35,880 [Thread-3:123145557262336] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 18:26:35,892 [Thread-4:123145562517504] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 81
+2020-08-24 18:29:25,773 [Thread-3:123145557262336] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 18:29:25,781 [Thread-4:123145562517504] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 81
+2020-08-24 18:33:05,847 [Thread-3:123145557262336] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 18:33:05,864 [Thread-4:123145562517504] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 81
+2020-08-24 18:33:07,954 [Thread-3:123145557262336] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 18:33:07,971 [Thread-4:123145562517504] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 81
+2020-08-24 18:33:08,075 [Thread-3:123145557262336] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-24 18:33:08,080 [Thread-4:123145562517504] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-24 18:33:08,090 [Thread-4:123145562517504] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-24 18:38:30,702 [Thread-5:123145557262336] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 18:38:30,721 [Thread-6:123145562517504] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 81
+2020-08-24 18:38:41,016 [Thread-5:123145557262336] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 18:38:41,030 [Thread-6:123145562517504] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 81
+2020-08-24 18:38:41,117 [Thread-5:123145557262336] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-24 18:38:41,122 [Thread-6:123145562517504] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-24 18:38:41,133 [Thread-6:123145562517504] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-24 18:39:56,497 [Thread-5:123145557262336] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 18:39:56,514 [Thread-6:123145562517504] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 81
+2020-08-24 18:39:56,627 [Thread-5:123145557262336] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-24 18:39:56,631 [Thread-6:123145562517504] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-24 18:39:56,642 [Thread-6:123145562517504] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-24 18:40:04,119 [Thread-5:123145557262336] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 18:40:04,133 [Thread-6:123145562517504] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 81
+2020-08-24 18:40:04,254 [Thread-5:123145557262336] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-24 18:40:04,258 [Thread-6:123145562517504] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-24 18:40:04,264 [Thread-6:123145562517504] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-24 18:41:07,879 [MainThread:4710911424] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/views/mock/mock_detail_views.py changed, reloading.
+2020-08-24 18:41:08,414 [MainThread:4571606464] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-24 18:42:23,001 [Thread-1:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 18:42:23,018 [Thread-2:123145540784128] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 44
+2020-08-24 18:42:23,132 [Thread-1:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-24 18:42:23,137 [Thread-2:123145540784128] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-24 18:42:23,146 [Thread-2:123145540784128] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-24 18:42:34,176 [Thread-1:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 18:42:34,184 [Thread-2:123145540784128] [django.server:157] [INFO]- "POST /backend/mock/ HTTP/1.1" 200 75
+2020-08-24 18:42:40,556 [Thread-1:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 18:42:40,560 [Thread-2:123145540784128] [django.server:157] [INFO]- "POST /backend/mock/ HTTP/1.1" 200 75
+2020-08-24 18:45:32,544 [Thread-1:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 18:45:32,550 [Thread-2:123145540784128] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 44
+2020-08-24 18:45:50,929 [Thread-1:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 18:45:50,933 [Thread-2:123145540784128] [django.server:157] [INFO]- "POST /backend/mock/ HTTP/1.1" 200 75
+2020-08-24 18:46:57,456 [Thread-1:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 18:46:57,463 [Thread-2:123145540784128] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 44
+2020-08-24 18:47:12,910 [Thread-1:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 18:47:12,919 [Thread-2:123145540784128] [django.server:157] [INFO]- "POST /backend/mock/ HTTP/1.1" 200 75
+2020-08-24 18:51:01,235 [Thread-1:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 18:51:01,247 [Thread-2:123145540784128] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 44
+2020-08-24 18:51:12,786 [Thread-1:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 18:51:12,790 [Thread-2:123145540784128] [django.server:157] [INFO]- "POST /backend/mock/ HTTP/1.1" 200 75
+2020-08-24 18:51:16,349 [Thread-1:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 18:51:16,353 [Thread-2:123145540784128] [django.server:157] [INFO]- "POST /backend/mock/ HTTP/1.1" 200 75
+2020-08-24 18:58:19,898 [Thread-3:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 18:58:19,909 [Thread-4:123145540784128] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 44
+2020-08-24 19:00:58,128 [Thread-3:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:00:58,136 [Thread-4:123145540784128] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 44
+2020-08-24 19:07:38,704 [Thread-5:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:07:38,717 [Thread-6:123145540784128] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 44
+2020-08-24 19:07:54,950 [Thread-5:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:07:54,955 [Thread-6:123145540784128] [django.server:157] [INFO]- "POST /backend/mock/ HTTP/1.1" 200 75
+2020-08-24 19:08:05,854 [Thread-5:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:08:05,858 [Thread-6:123145540784128] [django.server:157] [INFO]- "POST /backend/mock/ HTTP/1.1" 200 75
+2020-08-24 19:09:02,011 [Thread-5:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:09:02,015 [Thread-6:123145540784128] [django.server:157] [INFO]- "POST /backend/mock/ HTTP/1.1" 200 75
+2020-08-24 19:13:55,519 [Thread-5:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:13:55,529 [Thread-6:123145540784128] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 44
+2020-08-24 19:14:11,025 [Thread-5:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:14:11,030 [Thread-6:123145540784128] [django.server:157] [INFO]- "POST /backend/mock/ HTTP/1.1" 200 75
+2020-08-24 19:14:14,081 [Thread-5:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:14:14,085 [Thread-6:123145540784128] [django.server:157] [INFO]- "POST /backend/mock/ HTTP/1.1" 200 75
+2020-08-24 19:17:14,158 [Thread-7:123145546039296] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 3611
+2020-08-24 19:17:14,158 [Thread-8:123145551294464] [django.server:157] [WARNING]- "GET /CLodopfuncs.js?priority=2 HTTP/1.1" 404 3611
+2020-08-24 19:34:02,183 [Thread-9:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:34:02,195 [Thread-10:123145540784128] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 44
+2020-08-24 19:34:12,873 [Thread-9:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:34:12,878 [Thread-10:123145540784128] [django.server:157] [INFO]- "POST /backend/mock/ HTTP/1.1" 200 75
+2020-08-24 19:34:40,146 [Thread-9:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:34:40,150 [Thread-10:123145540784128] [django.server:157] [INFO]- "POST /backend/mock/ HTTP/1.1" 200 75
+2020-08-24 19:38:39,250 [Thread-9:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:38:39,262 [Thread-10:123145540784128] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 44
+2020-08-24 19:39:04,233 [Thread-9:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:39:04,237 [Thread-10:123145540784128] [django.server:157] [INFO]- "POST /backend/mock/ HTTP/1.1" 200 75
+2020-08-24 19:42:53,257 [Thread-9:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:42:53,270 [Thread-10:123145540784128] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 44
+2020-08-24 19:43:13,036 [Thread-9:123145535528960] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:43:13,041 [Thread-10:123145540784128] [django.server:157] [INFO]- "POST /backend/mock/ HTTP/1.1" 200 75
+2020-08-24 19:48:45,554 [MainThread:4571606464] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/models/mock.py changed, reloading.
+2020-08-24 19:48:46,101 [MainThread:4631739840] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-24 19:49:23,663 [Thread-1:123145550172160] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:49:23,675 [Thread-2:123145555427328] [django.server:157] [INFO]- "POST /backend/mock/ HTTP/1.1" 200 44
+2020-08-24 19:49:23,683 [Thread-1:123145550172160] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:49:23,689 [Thread-2:123145555427328] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 125
+2020-08-24 19:49:53,863 [Thread-1:123145550172160] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:49:53,872 [Thread-2:123145555427328] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 125
+2020-08-24 19:49:54,016 [Thread-1:123145550172160] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-24 19:49:54,022 [Thread-2:123145555427328] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-24 19:49:54,035 [Thread-2:123145555427328] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-24 19:50:48,118 [Thread-1:123145550172160] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:50:48,130 [Thread-2:123145555427328] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 125
+2020-08-24 19:52:22,549 [Thread-1:123145550172160] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:52:22,560 [Thread-2:123145555427328] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 125
+2020-08-24 19:52:22,700 [Thread-1:123145550172160] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-24 19:52:22,706 [Thread-2:123145555427328] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-24 19:52:22,711 [Thread-2:123145555427328] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-24 19:53:07,050 [Thread-1:123145550172160] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:53:07,062 [Thread-2:123145555427328] [django.server:157] [INFO]- "POST /backend/mock/ HTTP/1.1" 200 44
+2020-08-24 19:53:07,071 [Thread-1:123145550172160] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:53:07,078 [Thread-2:123145555427328] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 210
+2020-08-24 19:58:47,102 [Thread-3:123145550172160] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:58:47,108 [Thread-4:123145555427328] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 210
+2020-08-24 19:59:06,176 [Thread-3:123145550172160] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:59:06,184 [Thread-4:123145555427328] [django.server:157] [INFO]- "POST /backend/mock/ HTTP/1.1" 200 44
+2020-08-24 19:59:06,191 [Thread-3:123145550172160] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 19:59:06,199 [Thread-4:123145555427328] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 301
+2020-08-24 19:59:08,400 [Thread-4:123145555427328] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 301
+2020-08-24 20:00:52,137 [Thread-3:123145550172160] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 20:00:52,146 [Thread-4:123145555427328] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 301
+2020-08-24 20:06:30,574 [Thread-6:123145550172160] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 20:06:30,585 [Thread-7:123145555427328] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 301
+2020-08-24 20:06:45,435 [Thread-8:123145560682496] [django.server:157] [INFO]- "GET /backend/mock/1/run HTTP/1.1" 200 85
+2020-08-24 20:06:45,574 [Thread-8:123145560682496] [django.server:157] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 3591
+2020-08-24 20:07:10,694 [Thread-8:123145560682496] [django.server:157] [INFO]- "GET /backend/mock/3/run HTTP/1.1" 200 85
+2020-08-24 20:07:18,257 [Thread-8:123145560682496] [django.server:157] [INFO]- "GET /backend/mock/3/run HTTP/1.1" 200 85
+2020-08-24 20:08:20,915 [MainThread:4631739840] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/views/mock/mock_detail_views.py changed, reloading.
+2020-08-24 20:08:21,439 [MainThread:4563799488] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-24 20:08:44,210 [Thread-1:123145531899904] [django.server:157] [INFO]- "GET /backend/mock/3/run HTTP/1.1" 200 85
+2020-08-24 20:08:48,986 [Thread-1:123145531899904] [django.server:157] [INFO]- "GET /backend/mock/3/run HTTP/1.1" 200 85
+2020-08-24 20:10:09,790 [Thread-3:123145537155072] [django.server:157] [INFO]- "OPTIONS /backend/mock/[object%20Object] HTTP/1.1" 200 0
+2020-08-24 20:10:09,805 [Thread-4:123145542410240] [django.server:157] [WARNING]- "PUT /backend/mock/[object%20Object] HTTP/1.1" 404 3648
+2020-08-24 20:10:11,372 [Thread-3:123145537155072] [django.server:157] [INFO]- "OPTIONS /backend/mock/[object%20Object] HTTP/1.1" 200 0
+2020-08-24 20:10:11,379 [Thread-4:123145542410240] [django.server:157] [WARNING]- "PUT /backend/mock/[object%20Object] HTTP/1.1" 404 3648
+2020-08-24 20:10:13,232 [Thread-3:123145537155072] [django.server:157] [INFO]- "OPTIONS /backend/mock/[object%20Object] HTTP/1.1" 200 0
+2020-08-24 20:10:13,239 [Thread-4:123145542410240] [django.server:157] [WARNING]- "PUT /backend/mock/[object%20Object] HTTP/1.1" 404 3648
+2020-08-24 20:10:21,876 [Thread-3:123145537155072] [django.server:157] [INFO]- "OPTIONS /backend/mock/[object%20Object] HTTP/1.1" 200 0
+2020-08-24 20:10:21,883 [Thread-4:123145542410240] [django.server:157] [WARNING]- "PUT /backend/mock/[object%20Object] HTTP/1.1" 404 3648
+2020-08-24 20:11:32,130 [Thread-3:123145537155072] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 20:11:32,139 [Thread-4:123145542410240] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 301
+2020-08-24 20:11:37,409 [Thread-3:123145537155072] [django.server:157] [INFO]- "OPTIONS /backend/mock/1 HTTP/1.1" 200 0
+2020-08-24 20:11:37,418 [Thread-4:123145542410240] [django.server:157] [INFO]- "PUT /backend/mock/1 HTTP/1.1" 200 44
+2020-08-24 20:11:37,426 [Thread-3:123145537155072] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 20:11:37,433 [Thread-4:123145542410240] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 301
+2020-08-24 20:11:41,493 [Thread-3:123145537155072] [django.server:157] [INFO]- "OPTIONS /backend/mock/3 HTTP/1.1" 200 0
+2020-08-24 20:11:41,503 [Thread-4:123145542410240] [django.server:157] [INFO]- "PUT /backend/mock/3 HTTP/1.1" 200 44
+2020-08-24 20:11:41,509 [Thread-3:123145537155072] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 20:11:41,516 [Thread-4:123145542410240] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 301
+2020-08-24 20:11:53,408 [Thread-1:123145531899904] [django.server:157] [INFO]- "GET /backend/mock/3/run HTTP/1.1" 200 85
+2020-08-24 20:14:46,533 [MainThread:4563799488] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/views/mock/mock_detail_views.py changed, reloading.
+2020-08-24 20:14:47,059 [MainThread:4372946368] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-24 20:14:51,709 [Thread-1:123145416114176] [django.server:157] [INFO]- "GET /backend/mock/3/run HTTP/1.1" 200 85
+2020-08-24 20:15:20,804 [MainThread:4372946368] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/views/mock/mock_detail_views.py changed, reloading.
+2020-08-24 20:15:21,272 [MainThread:4709670336] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-24 20:15:25,354 [Thread-1:123145333166080] [django.server:157] [INFO]- "GET /backend/mock/3/run HTTP/1.1" 200 85
+2020-08-24 20:15:56,036 [MainThread:4709670336] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/views/mock/mock_detail_views.py changed, reloading.
+2020-08-24 20:15:56,500 [MainThread:4501409216] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-24 20:16:03,084 [Thread-1:123145534382080] [django.server:157] [INFO]- "GET /backend/mock/3/run HTTP/1.1" 200 85
+2020-08-24 20:16:35,541 [MainThread:4501409216] [django.utils.autoreload:222] [INFO]- /Users/zaihui-105/PycharmProjects/sky_universe/star_app/views/mock/mock_detail_views.py changed, reloading.
+2020-08-24 20:16:35,938 [MainThread:4610772416] [django.utils.autoreload:598] [INFO]- Watching for file changes with StatReloader
+2020-08-24 20:16:42,630 [Thread-1:123145541169152] [django.server:157] [INFO]- "GET /backend/mock/3/run HTTP/1.1" 200 12
+2020-08-24 20:17:51,485 [Thread-3:123145546424320] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 20:17:51,497 [Thread-4:123145551679488] [django.server:157] [INFO]- "POST /backend/mock/ HTTP/1.1" 200 44
+2020-08-24 20:17:51,505 [Thread-3:123145546424320] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 20:17:51,513 [Thread-4:123145551679488] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 397
+2020-08-24 20:17:59,260 [Thread-1:123145541169152] [django.server:157] [INFO]- "GET /backend/mock/4/run HTTP/1.1" 200 85
+2020-08-24 20:18:15,348 [Thread-6:123145562189824] [django.server:157] [INFO]- "POST /backend/mock/4/run HTTP/1.1" 200 12
+2020-08-24 20:18:55,647 [Thread-3:123145546424320] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 20:18:55,664 [Thread-4:123145551679488] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 397
+2020-08-24 20:18:55,809 [Thread-3:123145546424320] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-24 20:18:55,815 [Thread-4:123145551679488] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-24 20:18:55,827 [Thread-4:123145551679488] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72
+2020-08-24 20:19:15,741 [Thread-3:123145546424320] [django.server:157] [INFO]- "OPTIONS /backend/mock/1 HTTP/1.1" 200 0
+2020-08-24 20:19:15,755 [Thread-4:123145551679488] [django.server:157] [INFO]- "DELETE /backend/mock/1 HTTP/1.1" 200 44
+2020-08-24 20:19:15,763 [Thread-3:123145546424320] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 20:19:15,770 [Thread-4:123145551679488] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 314
+2020-08-24 20:25:17,588 [Thread-7:123145541169152] [django.server:157] [INFO]- "OPTIONS /backend/mock/ HTTP/1.1" 200 0
+2020-08-24 20:25:17,594 [Thread-8:123145546424320] [django.server:157] [INFO]- "GET /backend/mock/ HTTP/1.1" 200 314
+2020-08-24 20:25:17,715 [Thread-7:123145541169152] [django.server:157] [INFO]- "OPTIONS /backend/user/ HTTP/1.1" 200 0
+2020-08-24 20:25:17,720 [Thread-8:123145546424320] [star_app.views.user_views:30] [INFO]- aaa
+2020-08-24 20:25:17,726 [Thread-8:123145546424320] [django.server:157] [INFO]- "GET /backend/user/ HTTP/1.1" 200 72

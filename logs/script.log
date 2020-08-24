@@ -93,3 +93,26 @@ TypeError: process_response() takes 2 positional arguments but 3 were given
 2020-08-21 15:03:07,056 [Thread-16:123145337896960] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
 2020-08-21 18:34:51,362 [Thread-18:123145337896960] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
 2020-08-21 18:34:51,364 [Thread-17:123145332641792] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-24 11:47:04,560 [Thread-30:123145337896960] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-24 11:47:04,561 [Thread-29:123145332641792] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-24 13:53:42,314 [Thread-32:123145337896960] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-24 13:53:42,315 [Thread-31:123145332641792] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-24 15:16:21,726 [Thread-33:123145332641792] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-24 15:16:21,728 [Thread-34:123145337896960] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-24 15:16:34,563 [Thread-34:123145337896960] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-24 15:16:34,564 [Thread-33:123145332641792] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-24 15:16:44,754 [Thread-34:123145337896960] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-24 15:16:44,756 [Thread-33:123145332641792] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-24 16:27:11,206 [Thread-35:123145332641792] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-24 16:27:11,207 [Thread-36:123145337896960] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-24 16:29:49,551 [Thread-35:123145332641792] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-24 16:29:49,553 [Thread-36:123145337896960] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-24 16:39:04,860 [Thread-37:123145332641792] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-24 16:39:04,862 [Thread-38:123145337896960] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-24 19:17:14,156 [Thread-7:123145546039296] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-24 19:17:14,157 [Thread-8:123145551294464] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-08-24 20:06:45,573 [Thread-8:123145560682496] [django.request:228] [WARNING]- Not Found: /favicon.ico
+2020-08-24 20:10:09,805 [Thread-4:123145542410240] [django.request:228] [WARNING]- Not Found: /backend/mock/[object Object]
+2020-08-24 20:10:11,379 [Thread-4:123145542410240] [django.request:228] [WARNING]- Not Found: /backend/mock/[object Object]
+2020-08-24 20:10:13,239 [Thread-4:123145542410240] [django.request:228] [WARNING]- Not Found: /backend/mock/[object Object]
+2020-08-24 20:10:21,882 [Thread-4:123145542410240] [django.request:228] [WARNING]- Not Found: /backend/mock/[object Object]
