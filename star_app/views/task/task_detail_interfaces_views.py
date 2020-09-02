@@ -27,7 +27,8 @@ class TaskDetailInterfacesView(View):
 
         interfaces = TaskInterface.objects.filter(task_id=pk)
         # 列表表达式
-        ret = [model_to_dict(i) for i in interfaces]
+        ret = [model_to_dict(i.interface) for i in interfaces]
+        print(ret)
         return response_success(ret)
 
 
@@ -46,7 +47,7 @@ class TaskDetailInterfacesView(View):
         """
         body = request.body
         params = json.loads(body)
-        interfaces = params.get("interfaces")
+        interfaces = params.get("interfaces",[])
         if not isinstance(interfaces, list):
             raise MyException(message="数据格式不正确！")
         try:

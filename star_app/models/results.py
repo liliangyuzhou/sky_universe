@@ -42,5 +42,7 @@ class InterfaceResult(models.Model, Base):
     create_time = models.DateTimeField("创建时间", auto_created=True, )
     update_time = models.DateTimeField(auto_now=True)
 
+    success=models.BooleanField("测试结果",default=False)
+
     def __str__(self):
         return self.name

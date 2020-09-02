@@ -3,12 +3,14 @@
 # @Author  : liliang
 # @File    : interface_list_views.py
 from django.views import View
+from django.forms import model_to_dict
 from star_app.forms import task_form
 from star_app.common import response_success
 from star_app.my_exception import MyException
 from star_app.models.task import Task, TaskInterface
 from star_app.models.results import TaskResult, InterfaceResult
-from django.forms import model_to_dict
+from star_app.utils.task_utils import TaskUtils
+
 
 import json
 
@@ -33,6 +35,8 @@ class TaskListView(View):
             task["status"] = i.get_status_display()  # 获取该字段choice的描述
             task["interface_count"] = TaskInterface.objects.filter(task_id=i.id).count()
             task["result_count"] = TaskResult.objects.filter(task_id=i.id).count()
+
+            task["last_result"]=TaskUtils.get_last_results_summary(i.id)
             ret.append(task)
         return response_success(ret)
 
