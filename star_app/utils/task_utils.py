@@ -54,3 +54,15 @@ class TaskUtils:
             return cls.get_result_summary(None)
         ret = cls.get_result_summary(result.id)
         return ret
+
+    @classmethod
+    def get_last_interface_result(cls, result_id, interface_id):
+        if not interface_id or not result_id:
+            return "无"
+        version = InterfaceResult.objects.filter(task_result_id=result_id, interface_id=interface_id)
+        if len(version) == 0:
+            return "无"
+        if version[0].success:
+            return "成功"
+        else:
+            return "失败"

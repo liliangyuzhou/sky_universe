@@ -23,6 +23,7 @@ from star_app.views.debug import debug_list_views
 from star_app.views.task import task_detail_views,task_list_views
 from star_app.views.task import task_detail_interfaces_views
 from star_app.views.mock import mock_detail_views,mock_list_views
+from star_app.views.task import task_detail_results_views
 
 
 urlpatterns = [
@@ -50,5 +51,9 @@ urlpatterns = [
     path('backend/mock/<int:pk>', mock_detail_views.MockDetailView.as_view()),
 
     path('backend/mock/<int:pk>/run', mock_detail_views.run_mock),
+
+
+    path('backend/task/<int:pk>/versions', task_detail_results_views.TaskDetailVsersionView.as_view()),
+    path('backend/task/versions/<int:pk>/results', task_detail_results_views.TaskDetailVersionResultsView.as_view()),
 
 ]

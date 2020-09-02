@@ -216,3 +216,21 @@ TypeError: process_response() takes 2 positional arguments but 3 were given
 2020-09-01 22:52:58,569 [Thread-16:123145331662848] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
 2020-09-01 23:37:31,281 [Thread-17:123145326407680] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
 2020-09-01 23:37:31,283 [Thread-18:123145331662848] [django.request:228] [WARNING]- Not Found: /CLodopfuncs.js
+2020-09-02 16:24:50,201 [Thread-1:123145461358592] [django.request:228] [ERROR]- Internal Server Error: /backend/task/4/interface/
+Traceback (most recent call last):
+  File "/Users/zaihui-105/first_class/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/zaihui-105/first_class/lib/python3.7/site-packages/django/utils/deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+  File "/Users/zaihui-105/first_class/lib/python3.7/site-packages/django/middleware/clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'str' object has no attribute 'get'
+2020-09-02 16:26:02,504 [Thread-1:123145461358592] [django.request:228] [ERROR]- Internal Server Error: /backend/task/5/interface/
+Traceback (most recent call last):
+  File "/Users/zaihui-105/first_class/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/zaihui-105/first_class/lib/python3.7/site-packages/django/utils/deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+  File "/Users/zaihui-105/first_class/lib/python3.7/site-packages/django/middleware/clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'str' object has no attribute 'get'

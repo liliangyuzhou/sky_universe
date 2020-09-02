@@ -9,6 +9,7 @@ from star_app.common import response_success
 from star_app.my_exception import MyException
 from star_app.models.task import Task, TaskInterface
 from star_app.models.interface import Interface
+from star_app.utils.task_utils import TaskUtils
 import json
 
 """task任务下接口的增删改查"""
@@ -26,11 +27,21 @@ class TaskDetailInterfacesView(View):
         """
 
         interfaces = TaskInterface.objects.filter(task_id=pk)
-        # 列表表达式
-        ret = [model_to_dict(i.interface) for i in interfaces]
-        print(ret)
+        last_result = TaskUtils.get_last_results(task_id=pk)
+        # # 列表表达式
+        # ret = [model_to_dict(i.interface) for i in interfaces]
+        # # print(ret)
+        # return response_success(ret)
+        ret = []
+        for i in interfaces:
+            tem = model_to_dict(i.interface)
+            tem["task_interface_id"] = i.id
+            r="无"
+            if last_result is not None:
+                r=TaskUtils.get_last_interface_result(last_result.id, i.interface_id)
+            tem["result"] = r
+            ret.append(tem)
         return response_success(ret)
-
 
     def post(self, request, pk, *args, **kwargs):
         """
@@ -47,7 +58,7 @@ class TaskDetailInterfacesView(View):
         """
         body = request.body
         params = json.loads(body)
-        interfaces = params.get("interfaces",[])
+        interfaces = params.get("interfaces", [])
         if not isinstance(interfaces, list):
             raise MyException(message="数据格式不正确！")
         try:
@@ -59,7 +70,7 @@ class TaskDetailInterfacesView(View):
                 Interface.objects.get(id=i)
             except Interface.DoesNotExist:
                 raise MyException(message="接口不存在，请检查数据！")
-            TaskInterface.objects.create(task_id=task.id,interface_id=i)
+            TaskInterface.objects.create(task_id=task.id, interface_id=i)
         return response_success()
 
     # def delete(self, request, pk, *args, **kwargs):
@@ -88,7 +99,7 @@ class TaskDetailInterfacesView(View):
         """
         body = request.body
         params = json.loads(body)
-        task_interface_id = params.get("task_interface_id",None)
+        task_interface_id = params.get("task_interface_id", None)
         if task_interface_id is None:
             raise MyException(message="接口不存在，请检查数据！")
         TaskInterface.objects.filter(id=task_interface_id).delete()
